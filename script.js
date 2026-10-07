@@ -39,7 +39,7 @@ document.getElementById("bookingForm")?.addEventListener("submit", e => {
 
   const data = new FormData(e.currentTarget);
 
-  const recipient = "contact@lvthes.fr";
+  const recipient = "lvthes.personalshopper@gmail.com";
 
   const subject = encodeURIComponent(
     "Réservation LVTHES — " +
