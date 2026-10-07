@@ -16,7 +16,7 @@ document.getElementById("contactForm")?.addEventListener("submit", e => {
 
   const data = new FormData(e.currentTarget);
 
-  const recipient = "contact@lvthes.fr";
+  const recipient = "lvthes.personalshopper@gmail.com";
 
   const subject = encodeURIComponent(
     "Demande d'accompagnement LVTHES — " + data.get("name")
